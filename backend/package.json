@@ -1,0 +1,14 @@
+{
+  "name": "counter-metrics-backend",
+  "version": "1.0.0",
+  "description": "Backend for button metrics tracking with Prometheus",
+  "main": "backend.js",
+  "scripts": {
+    "start": "node backend.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "prom-client": "^15.1.3"
+  }
+}

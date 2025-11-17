@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.container {
+    background: white;
+    padding: 25px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.08);
+}
+
+button {
+    padding: 14px 28px;
+    font-size: 18px;
+    border: none;
+    background: #2f96df;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d528be;
+}
+
+.metrics-display {
+    margin-top: 20px;
+    font-size: 17px;
+}
