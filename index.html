@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Click Counter</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Button Metrics</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1 id="count">0</h1>
-    <button id="countBtn">COUNT</button>
+    <h1>Button Metrics</h1>
+
+    <button id="trackBtn">Click Me</button>
+
+    <div class="metrics-display">
+      <p><strong>Total Clicks:</strong> <span id="clickCount">0</span></p>
+      <p><strong>Last Interval (ms):</strong> <span id="lastInterval">0</span></p>
+      <p><strong>Last Duration (ms):</strong> <span id="lastDuration">0</span></p>
+      <p><strong>Last Timestamp:</strong> <span id="lastTimestamp">-</span></p>
+    </div>
   </div>
 
   <script src="script.js"></script>
